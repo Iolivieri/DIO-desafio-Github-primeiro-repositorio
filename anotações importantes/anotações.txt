@@ -1,2 +1,32 @@
 como baixar o Git: https://git-scm.com/downloads
-O gitbash é um terminal extendido para otimizar o uso do Git
+O gIntrodução Git 
+  Um sistema de versionamento de códigos distribuído, auxiliando na criação e monitorização de diferentes versões dos nossos códigos. Git e Github são diferentes, mas comumente estão juntas. A sigla SHA é um conjunto de funções hash criptográficas projetadas pela NSA, que gera um conjunto de caracteres de 40 dígitos. São responsáveis pelo racionamento do código blobs ( onde ficam guardados os arquivos, capaz de usar o metadado para gerar a criptografia do arquivo, gerando a mesma criptografia quando especificado como o git). Trees(armazenam  blobs, contém então também metadados, porém com o nome do arquivo, montando a estrutura de onde está os arquivos, levando a blobs ou outras árvores) e commits( capaz de direcionar as alterações realizadas, denominando o autor, o'momento  e a alteração com a justificativa.) Todos são dependentes e sofrem alteração quando uma camada é alterada sendo então muito segura. 
+
+Navegação básica no terminal e instalação: o Git não tem uma interface gráfica, sendo sua interação  é por linha de comando (CLI) 
+Windows:  cd, dir, mkdir e del/rmdir
+ *dir: lista as pastas, para se situar no sistema operacional e compreender o local em que o usuário se encontra.  
+*cd/: capaz de navegar para um local específico do sistema
+*..: retrocede um nível de navegação quando acompanhado pelo cd
+*cls : limpa o terminal windows 
+*tecla Tab: reconhece nome da pasta em que o usuário está 
+*mkdir: cria pastas 
+*echo: print e responde com o mesmo texto digitado
+*>: redirecionador de fluxo,  jogando a informação dada em um arquivo (necessário finalizar com .txt)
+*rmdir workspace/S /Q: apaga pasta por inteiro
+*del: exclui tudo que está na pasta
+
+Chave SSH: chave pública(faz reconhecer a máquina sem precisar colocar senha) e privada, feito para garantir segurança dos arquivos.
+
+
+git init: iniciar repositório
+git add: mover arquivos e iniciar versionamento
+git commit: para criar commit
+
+ f lag: -a (mostra arquivos e pastas ocultos)
+ todo arquivo de markdown termina em .md
+ 
+>git add nomeArquivo 
+>git add*
+>git add. 
+>git commit  -m “msg..”
+
